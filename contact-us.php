@@ -12,7 +12,7 @@ include 'misc/headernavfooter.php';
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/login-modal.js"></script>
     
     <style>
@@ -71,7 +71,7 @@ include 'misc/headernavfooter.php';
 
     <!-- FOOTER -->
     <?php
-      footer();
+    footer();
     ?>
 
     <script>
@@ -139,7 +139,5 @@ include 'misc/headernavfooter.php';
             });
         });
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
