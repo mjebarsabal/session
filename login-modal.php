@@ -1,6 +1,6 @@
 <?php
-include 'misc/headernavfooter.php';
-include 'misc/signup_function.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
+require_once __DIR__ . '/misc/signup_function.php';
 ?>
 
 <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">

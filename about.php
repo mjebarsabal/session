@@ -1,5 +1,5 @@
 <?php
-include 'misc/headernavfooter.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

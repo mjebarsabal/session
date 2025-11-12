@@ -1,6 +1,6 @@
 <?php
-include 'misc/headernavfooter.php';
-include 'misc/cart_functions.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
+require_once __DIR__ . '/misc/cart_functions.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

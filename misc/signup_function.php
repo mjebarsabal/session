@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+require_once __DIR__ . '/db.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $firstName = filter_input(INPUT_POST, "firstName", FILTER_SANITIZE_SPECIAL_CHARS);

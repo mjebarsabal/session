@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+require_once __DIR__ . '/db.php';
 
 //Display all products by Category
 function displayProductsbyCateg($categ)

@@ -1,6 +1,6 @@
 <?php
-include 'misc/headernavfooter.php';
-include 'misc/product_page_handler.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
+require_once __DIR__ . '/misc/product_page_handler.php';
 ?>
 
 <!DOCTYPE html>

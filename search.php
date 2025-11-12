@@ -1,5 +1,5 @@
 <?php
-include 'misc/headernavfooter.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
 
 $searchQuery = isset($_GET['search_query']) ? htmlspecialchars($_GET['search_query']) : '';
 ?>

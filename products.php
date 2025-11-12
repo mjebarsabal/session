@@ -1,6 +1,6 @@
 <?php
-include 'misc/disp_products.php';
-include 'misc/headernavfooter.php';
+require_once __DIR__ . '/misc/disp_products.php';
+require_once __DIR__ . '/misc/headernavfooter.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

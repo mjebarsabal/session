@@ -1,5 +1,6 @@
 <?php
-include 'db.php';
+require_once __DIR__ . '/init.php';
+require_once __DIR__ . '/db.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
@@ -19,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($user = mysqli_fetch_assoc($result)) {
         if (password_verify($password, $user['password'])) {
             //Starts the session for the user.
-            session_start();
+            ensure_session_started();
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_name'] = $user['name'];
             $_SESSION['user_email'] = $user['email'];

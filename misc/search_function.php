@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+require_once __DIR__ . '/db.php';
 header('Content-Type: application/json');
 
 $query = "SELECT id, prod_name AS name, price, category, stock, description, img, date_added FROM products";
